@@ -1,0 +1,192 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url(Font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: SansB;
+    src: url(Font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: SansR;
+    src: url(Font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: SansS;
+    src: url(Font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: PoppinsR;
+    src: url(Font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsS;
+    src: url(Font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: RobotoB;
+    src: url(Font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoM;
+    src: url(Font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoR;
+    src: url(Font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoS;
+    src: url(Font/RobotoMono-SemiBold.ttf);
+}
+
+.nome {
+    font: 775 30px 'poppinsB', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+
+}
+
+.item {
+    font: 500 20px 'sans', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;}
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 200px;
+        flex-wrap: wrap;}
+
+.email{
+    height: 20px
+    ;padding: 20px;
+}
+
+        .email-medidas {
+            background-color: 
+            orange; color: white;
+            height: 20px;
+             padding: 4px;
+             font: 'sans'; border: 2px black;
+        }
+
+
+
+        .email-medidas{
+            position: absolute;margin-left: 195px; width: 300px;
+        }
+
+
+.header{
+    background-color: orange;
+    padding: 1px;
+    
+
+}
+
+.calcule{
+    font: 620 35px 'RobotoM', sans-serif; margin-left: 255px; position: absolute; margin-top: 0px;
+}
+.comigo{
+    font: 620 35px 'RobotoM', sans-serif; margin-left: 430px; margin-top: 150.68px; color: #ff8000;
+}
+
+.texto_imagem {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.titulo {
+    color: #ffe100;
+    position: absolute;
+    left: 950px;
+    top: 270px;
+    font: 'Poppins' , sans-serif; font-size: 17px;
+}
+
+.subtitulo {
+    color: #ffffff;
+    position: absolute;
+    left: 870px;
+    top: 300px;
+    font: 400 30px 'Poppins' , sans-serif;
+}
+.caixas{
+    display: flex;
+}
+.icon{
+    width: 100px;
+}
+#caixa-cima .fone{
+    font-family: 'SansB';
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 45px;
+}
+#caixa-cima .sub{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#caixa-cima .caixa{
+    background-color: #ffffff;
+    border: 2px solid #ff9d00;
+    border-radius: 10px;
+    width: 254px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+#caixa-cima{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -625px;
+}
+.sub{
+    color: black;
+}
+
+.imgum{position: absolute; width:580px; height: 500px;
+    border-radius: 10px; margin-left: 800px; margin-top: 0px;
+}
+
+.texto-solidos{
+    text-align: justify; font:'sans', sans-serif;padding-left: 180px; position: absolute; margin-top: 100px; margin-right: 790px; font-size: 18px;
+}
+.sub-solidos{
+    margin-left: 350px; font-size: 42px; font: "Roboto";
+}
+.linha{
+    background-color: #ff8000; color: #ff8000; margin-top: -50px ;
+}
+
+.caixa {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;    
+    background-color: white;
+    height: 270px;
+  
+  }
